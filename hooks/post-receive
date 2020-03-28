@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir -p /var/www/sites/chemblog
+GIT_WORK_TREE=/var/www/sites/chemblog git checkout -f
+
